@@ -1,0 +1,105 @@
+body {
+    background-color: #000; /* preto */
+  }
+  
+  h1, h2, h3 {
+    color: #e6e6dd; /* creme*/
+  }
+  
+  p {
+    color: #000; /* preto */
+  }
+  
+  a {
+    color: #e6e6dd; /*creme */
+  }
+  
+  /* Exemplo de botão com cores marrom e dourado */
+  .button {
+    background-color: #000;; /*preto */
+    color: #e6e6dd; /* creme */
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  #enigma-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+/* Estilos para a caixa de resposta */
+#enigma-answer {
+  padding: 10px;
+  border: 1px solid #964B00; /* Marrom escuro */
+  background-color: #F5DEB3; /* Marrom claro */
+  color: #000; /* Preto */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+/* Estilos para o botão "Verificar" */
+#enigma-container button {
+  padding: 10px 20px;
+  background-color: #000; /* Marrom médio */
+  color: #e6e6dd; /* Dourado */
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+#enigma-container button:hover {
+  background-color: #000 /* Marrom escuro */
+}
+
+/* Estilos para a caixa de resposta */
+.enigma-answer {
+  padding: 10px;
+  border: 1px solid #964B00; /* Marrom escuro */
+  background-color: #F5DEB3; /* Marrom claro */
+  color: #000; /* Preto */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+/* Estilos para o botão "Verificar" */
+#enigma-container button {
+  padding: 10px 20px;
+  background-color: #000; /* Marrom médio */
+  color: #e6e6dd; /* Dourado */
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+/* Estilos para a caixa de resposta */
+#enigma-container button:hover {
+  background-color: #000 /* Marrom escuro */
+}
+
+/* Estilos para o elemento div que contém a caixa de resposta */
+#enigma-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Adiciona uma classe ao elemento div que contém a caixa de resposta */
+#enigma-container .enigma-answer {
+  border: 1px solid #000; /* Marrom escuro */
+  background-color: #FFFFFF; /* Branco */
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
